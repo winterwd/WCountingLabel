@@ -1,6 +1,6 @@
 //
-//  WCountingLable.h
-//  WCountingLable
+//  WCountingLabel.h
+//  WCountingLabel
 //
 //  Created by winter on 2017/2/9.
 //  Copyright © 2017年 wd. All rights reserved.
@@ -32,7 +32,7 @@ typedef NSString *(^WCountingLableStringFormatBlock)(CGFloat value);
  */
 typedef NSAttributedString *(^WCountingLableAttributedFormatBlock)(CGFloat value);
 
-@interface WCountingLable : UILabel
+@interface WCountingLabel : UILabel
 
 /**
  显示方式 default linear

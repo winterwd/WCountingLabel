@@ -1,13 +1,13 @@
 //
-//  WCountingLable.m
-//  WCountingLable
+//  WCountingLabel.m
+//  WCountingLabel
 //
 //  Created by winter on 2017/2/9.
 //  Copyright © 2017年 wd. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>
-#import "WCountingLable.h"
+#import "WCountingLabel.h"
 
 #pragma mark - WLabelCounter
 
@@ -73,9 +73,9 @@
 
 @end
 
-#pragma mark - WCountingLable
+#pragma mark - WCountingLabel
 
-@interface WCountingLable ()
+@interface WCountingLabel ()
 
 @property (nonatomic, copy) NSString *preFormat;
 @property (nonatomic, copy) NSString *midFormat;
@@ -92,7 +92,7 @@
 @property (nonatomic, strong) id<WLabelCounter> counter;
 @end
 
-@implementation WCountingLable
+@implementation WCountingLabel
 
 #pragma mark - method
 

@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "WCountingLable.h"
+#import "WCountingLabel.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet WCountingLable *defaultLabel;
-@property (weak, nonatomic) IBOutlet WCountingLable *plainLabel;
-@property (weak, nonatomic) IBOutlet WCountingLable *attributedLabel;
+@property (weak, nonatomic) IBOutlet WCountingLabel *defaultLabel;
+@property (weak, nonatomic) IBOutlet WCountingLabel *plainLabel;
+@property (weak, nonatomic) IBOutlet WCountingLabel *attributedLabel;
 
 @end
 

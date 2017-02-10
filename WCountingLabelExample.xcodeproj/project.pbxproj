@@ -13,7 +13,7 @@
 		C83DA3D01E4C4FDF00936242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83DA3CE1E4C4FDF00936242 /* Main.storyboard */; };
 		C83DA3D21E4C4FDF00936242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83DA3D11E4C4FDF00936242 /* Assets.xcassets */; };
 		C83DA3D51E4C4FDF00936242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83DA3D31E4C4FDF00936242 /* LaunchScreen.storyboard */; };
-		C83DA3E31E4C560C00936242 /* WCountingLable.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DA3E21E4C560C00936242 /* WCountingLable.m */; };
+		C83DA3E31E4C560C00936242 /* WCountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DA3E21E4C560C00936242 /* WCountingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		C83DA3D11E4C4FDF00936242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83DA3D41E4C4FDF00936242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83DA3D61E4C4FDF00936242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C83DA3E11E4C560C00936242 /* WCountingLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCountingLable.h; sourceTree = "<group>"; };
-		C83DA3E21E4C560C00936242 /* WCountingLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCountingLable.m; sourceTree = "<group>"; };
+		C83DA3E11E4C560C00936242 /* WCountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCountingLabel.h; sourceTree = "<group>"; };
+		C83DA3E21E4C560C00936242 /* WCountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCountingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		C83DA3E01E4C560C00936242 /* WCountingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				C83DA3E11E4C560C00936242 /* WCountingLable.h */,
-				C83DA3E21E4C560C00936242 /* WCountingLable.m */,
+				C83DA3E11E4C560C00936242 /* WCountingLabel.h */,
+				C83DA3E21E4C560C00936242 /* WCountingLabel.m */,
 			);
 			path = WCountingLabel;
 			sourceTree = SOURCE_ROOT;
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83DA3CD1E4C4FDF00936242 /* ViewController.m in Sources */,
-				C83DA3E31E4C560C00936242 /* WCountingLable.m in Sources */,
+				C83DA3E31E4C560C00936242 /* WCountingLabel.m in Sources */,
 				C83DA3CA1E4C4FDF00936242 /* AppDelegate.m in Sources */,
 				C83DA3C71E4C4FDF00936242 /* main.m in Sources */,
 			);
