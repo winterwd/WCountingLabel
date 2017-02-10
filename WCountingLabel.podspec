@@ -12,7 +12,7 @@ s.source       = { :git => 'https://git.oschina.net/winter7/WCountingLabel.git',
 
 s.requires_arc = true
 s.source_files = 'WCountingLabel/*.{h,m}'
-s.public_header_files = 'WCountingLabel/WCountingLabel.h'
+s.public_header_files = 'WCountingLabel/*.h'
 
 s.frameworks = 'Foundation', 'QuartzCore'
 end
