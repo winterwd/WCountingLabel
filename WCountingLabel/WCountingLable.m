@@ -147,12 +147,13 @@
 
 #pragma mark - private method
 
-//- (void)setFormat:(NSString *)format
-//{
-//    _format = format;
-//    // 更新 label 显示格式
-//    [self setTextValue:[self currentVale]];
-//}
+- (void)setFormat:(NSString *)format
+{
+    _format = format;
+
+    // 更新 显示格式
+    [self setNumberStyle:self.numberStyle];
+}
 
 - (void)setNumberStyle:(NSNumberFormatterStyle)numberStyle
 {
@@ -183,6 +184,11 @@
         else if (formats.count == 1){
             self.preFormat = [formats firstObject];
         }
+    }
+    else {
+        self.midFormat = self.format = @"%d";
+        self.preFormat = @"";
+        self.sufFormat = @"";
     }
 }
 
